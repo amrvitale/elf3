@@ -15,10 +15,10 @@ class Summary extends React.Component {
         <Total />
       </div>
     );
-  });
+  }
 }
 
-  }
+  
 
 
 export default Summary;

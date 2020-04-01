@@ -26,5 +26,6 @@ export default class Cutomize extends React.Component {
                   {features}
           </form>
       )
-  }
-}
+    })
+    }
+    }

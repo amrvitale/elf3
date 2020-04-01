@@ -17,7 +17,7 @@ export default class Option extends React.Component {
             <Currency cost={selectedOption.cost} />
           </div>
         </div>
-
-      )};
-  }
-}
+      )
+        })
+      }
+    }

@@ -4,7 +4,7 @@ import Currency from './Currency';
 
 class Feature extends React.Component {
   render() {
-    
+
     return (
       <div key={this.props.itemHash} className="feature__item">
         <input
