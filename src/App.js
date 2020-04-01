@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Components/Header';
-import Customize from './Components/Customize'
 import Summary from './Components/Summary'
 import './App.css';
-import slugify from 'slugify';
 
 
 const FEATURES = {
@@ -88,13 +86,11 @@ class App extends Component {
       <div className="App">
         <Header />
           <main>
-            <Customize
-              features={FEATURES}
-              selected= {this.state.selected}
-              updateFeature={this.updateFeature}
-              />
-          
-            <Summary selected={this.state.selected} />
+            <Summary
+            selected={this.state.selected}
+            features={FEATURES}
+            updateFeature={this.updateFeature}
+            />
 
           </main>
         </div>
